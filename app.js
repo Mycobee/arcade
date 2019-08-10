@@ -15,5 +15,5 @@ app.use(express.static(path.join(__dirname, 'public')));
 
 app.use('/', indexRouter);
 
-hodule.exports = app;
 app.use('/api/v1/games', gamesRouter)
+module.exports = app;
